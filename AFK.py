@@ -1,19 +1,3 @@
-#    Friendly Telegram (telegram userbot)
-#    Copyright (C) 2018-2019 The Authors
-
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as published by
-#    the Free Software Foundation, either version 3 of the License, or
-#    (at your option) any later version.
-
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-
 from .. import loader, utils
 
 import logging
@@ -27,8 +11,9 @@ logger = logging.getLogger(__name__)
 
 @loader.tds
 class AFKMod(loader.Module):
+    """Модуль АФК by недоСашка"""
     """Предоставляет сообщение о том, что вы сейчас недоступны"""
-    strings = {"name": "AFK",
+    strings = {"name": "AFK недоСашка Edition",
                "gone": "<b>Умер.</b>",
                "back": "<b>Возродился.</b>",
                "afk": "<b>Я в гробу (уже {}).Давай со мной?</b>",
@@ -88,3 +73,4 @@ class AFKMod(loader.Module):
 
     def get_afk(self):
         return self._db.get(__name__, "afk", False)
+

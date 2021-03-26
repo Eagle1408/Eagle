@@ -1,3 +1,4 @@
+ 
 from .. import loader, utils
 
 @loader.tds
@@ -21,7 +22,7 @@ class RPMod(loader.Module):
 
     async def rplistcmd(self, message):
         """Используй: .rplist чтобы посмотреть список рп команд."""
-        await message.edit("<b>• чмок\n• чпок\n• кусь\n• обнять\n• шлеп\n• ударить\n• закопать\n• выкопать\n• запопать\n• послать\n• сосать\n• отлизать\n• выебать\n• пожениться\n• уложить/лечь спать\n• ❤️\n• рука и сердце\n• кинуть на карту\n• купить еду/чипсы\n• купить пиво\n• выпить пиво.</b>")
+        await message.edit("<b>• чмок\n• чпок\n• кусь\n• обнять\n• шлеп\n• ударить\n• выкинуть\n• закопать\n• выкопать\n• запопать\n• послать\n• сосать\n• отлизать\n• выебать\n• пожениться\n• уложить/лечь спать\n• ❤️\n• рука и сердце\n• кинуть на карту\n• купить еду/чипсы\n• купить пиво\n• выпить пиво.</b>")
 
     async def watcher(self, message):
         status = self.db.get("RPMod", "status")
@@ -43,6 +44,8 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> шлепнул(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "ударить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> ударил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "выкинуть":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> выкинул(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")    
                     if message.text.lower() == "закопать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> закопал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "выкопать":

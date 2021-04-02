@@ -21,7 +21,7 @@ class AntiTagMod(loader.Module):
             msg.update({"is_reply": True})
         else:
             if args: msg.update({"message": args})
-            else: msg.update({"message": "<b>Занят.</b>\nСтатус обновлён: В сети. /nПричина: сработал антитег."})
+            else: msg.update({"message": "<b>Занят. \nСтатус обновлён: В сети. /nПричина: сработал антитег. </b>"})
             msg.update({"is_reply": False})
         self.db.set("AntiTag", "status", True)
         self.db.set("AntiTag", "sets", msg) 

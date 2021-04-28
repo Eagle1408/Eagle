@@ -84,4 +84,8 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> купил(-а) чипсы <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "смех":
                         await message.edit(f"АХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХА")  
+                    if message.text.lower() == "рпссылка":
+                        await message.edit(f".dlmod https://raw.githubusercontent.com/Eagle1408/Eagle/main/RPMod.py")
+                    if message.text.lower() == "антитегссылка":
+                        await message.edit(f".dlmod https://raw.githubusercontent.com/Eagle1408/Eagle/main/AntiTag.py")
         except: pass

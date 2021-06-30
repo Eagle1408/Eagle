@@ -8,7 +8,7 @@ class AntiTagMod(loader.Module):
     async def client_ready(self, client, db):
         self.db = db
 
-    async def atoncmd(self, message):
+    async def уйтиcmd(self, message):
         """Включить режим AntiTag: .уйти <текст или реплай>."""
         atst = self.db.get("AntiTag", "status", False)
         msg = self.db.get("AntiTag", "sets", {})
@@ -27,7 +27,7 @@ class AntiTagMod(loader.Module):
         self.db.set("AntiTag", "sets", msg) 
         return await message.edit("<b>Ушёл</b>")
 
-    async def atoffcmd(self, message):
+    async def пришёлcmd(self, message):
         """Выключить режим AntiTag: .пришёл."""
         self.db.set("AntiTag", "status", False)
         self.db.set("AntiTag", "sets", {})

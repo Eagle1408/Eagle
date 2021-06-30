@@ -3,7 +3,7 @@ from .. import loader, utils
 @loader.tds
 class RPMod(loader.Module):
     """Модуль RPMod by недоСашка"""
-    strings = {'name': 'RPMod недоСашка Edition'}
+    strings = {'name': 'RPMod by недоСашка'}
 
     async def client_ready(self, client, db):
         self.db = db
@@ -19,7 +19,7 @@ class RPMod(loader.Module):
             self.db.set("RPMod", "status", True)
             await message.edit("<b>RP Режим <code>включен</code></b>")
 
-    async def rplistcmd(self, message):
+    async def рплистcmd(self, message):
         """Используй: .rplist чтобы посмотреть список рп команд."""
         await message.edit("<b>чмок, чпок, кусь, обнять, шлеп, ударить, послать, сосать, пожениться, лечь спать, ❤️, рука и сердце, кинуть на карту, купить еду/чипсы, купить пиво, выпить пиво.</b>")
 

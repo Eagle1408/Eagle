@@ -14,12 +14,12 @@ logger = logging.getLogger(__name__)
 @loader.tds
 class AFKMod(loader.Module):
 	"""Provides a message saying that you are unavailable"""
-	strings = {"name": "AFK Status",
-	           "gone": "<b>I'm goin' AFK</b>",
-	           "back": "<b>I'm no longer AFK</b>",
-	           "afk": "<b>I'm AFK right now (since {} ago).</b>",
-	           "afk_reason": "<b>I'm AFK right now (since {} "
-	                         "ago).\nReason:</b> <i>{}</i>"}
+	strings = {"name": "AFK by недоСашка",
+	           "gone": "<b>Нет на месте</b>",
+	           "back": "<b>На месте</b>",
+	           "afk": "<b>Был в сети (since {} назад).</b>",
+	           "afk_reason": "<b>Был в сети (since {} "
+	                         "назад).\nПричина:</b> <i>{}</i>"}
 
 	def __init__(self):
 		self.config = loader.ModuleConfig(
@@ -29,7 +29,7 @@ class AFKMod(loader.Module):
 		self._db = db
 		self._me = await client.get_me()
 
-	async def afkcmd(self, message):
+	async def афкcmd(self, message):
 		""".afk [message]"""
 		if utils.get_args_raw(message):
 			self._db.set(__name__, "afk", utils.get_args_raw(message))
@@ -39,7 +39,7 @@ class AFKMod(loader.Module):
 		await self.allmodules.log("afk", data=utils.get_args_raw(message) or None)
 		await utils.answer(message, self.strings("gone", message))
 
-	async def unafkcmd(self, message):
+	async def анафкcmd(self, message):
 		"""Remove the AFK status"""
 		self._db.set(__name__, "afk", False)
 		self._db.set(__name__, "gone", None)

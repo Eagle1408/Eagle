@@ -3,13 +3,13 @@ from .. import loader, utils
 @loader.tds
 class AntiTagMod(loader.Module):
     """Режим AntiTag."""
-    strings = {'name': 'AntiTag'}
+    strings = {'name': 'AntiTag by недоСашка'}
 
     async def client_ready(self, client, db):
         self.db = db
 
     async def atoncmd(self, message):
-        """Включить режим AntiTag: .aton <текст или реплай>."""
+        """Включить режим AntiTag: .уйти <текст или реплай>."""
         atst = self.db.get("AntiTag", "status", False)
         msg = self.db.get("AntiTag", "sets", {})
         args = utils.get_args_raw(message)
@@ -25,13 +25,13 @@ class AntiTagMod(loader.Module):
             msg.update({"is_reply": False})
         self.db.set("AntiTag", "status", True)
         self.db.set("AntiTag", "sets", msg) 
-        return await message.edit("<b>Арёл</b> Улетел.")
+        return await message.edit("<b>Ушёл</b>")
 
     async def atoffcmd(self, message):
-        """Выключить режим AntiTag: .atoff."""
+        """Выключить режим AntiTag: .пришёл."""
         self.db.set("AntiTag", "status", False)
         self.db.set("AntiTag", "sets", {})
-        return await message.edit("<b>Арёл</b> Прилетел.")
+        return await message.edit("<b>Бонжур, я на месте</b>")
         
     async def watcher(self, message):
         try:

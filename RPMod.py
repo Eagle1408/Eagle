@@ -223,31 +223,31 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "лешить девственности":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "покрестить ":
+                    if message.text.lower() == "покрестить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "наказать ":
+                    if message.text.lower() == "наказать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "пригласить на поминки ":
+                    if message.text.lower() == "пригласить на поминки":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "возбудить ":
+                    if message.text.lower() == "возбудить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "пргласить на свадьбу ":
+                    if message.text.lower() == "пригласить на свадьбу":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "бухуть с:
+                    if message.text.lower() == "бухнуть с:
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Потанцевать с":
+                    if message.text.lower() == "потанцевать с":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Выпить час с ":
+                    if message.text.lower() == "пыпить час с":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Позвать в гости ":
+                    if message.text.lower() == "позвать в гости ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Похоронить":
+                    if message.text.lower() == "похоронить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Выгнать из свадьбы ":
+                    if message.text.lower() == "выгнать из свадьбы ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Пригласить на др":
+                    if message.text.lower() == "пригласить на др":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Выгнать":
+                    if message.text.lower() == "выгнать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")

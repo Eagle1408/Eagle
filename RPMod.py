@@ -223,31 +223,31 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "лешить девственности":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "покрестить ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "наказать ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "пригласить на поминки ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "возбудить ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "пргласить на свадьбу ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "бухуть с:
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "Потанцевать с":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "Выпить час с ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "Позвать в гости ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "Похоронить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "Выгнать из свадьбы ":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "Пригласить на др":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
+                    if message.text.lower() == "Выгнать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")

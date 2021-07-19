@@ -219,9 +219,7 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> станцевал(-а) стриптиз для <a href=tg://user?id={user.id}>{user.first_name}</a>")                    
                     if message.text.lower() == "смех":
                         await message.edit(f"АХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХА") 
-                        
-
-                                        if message.text.lower() == "обидется на":
+                    if message.text.lower() == "обидется на":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> обиделся(-ась) на <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "уебать об стенку":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> уебал(-ала) об стенку <a href=tg://user?id={user.id}>{user.first_name}</a>")

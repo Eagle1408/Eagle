@@ -3,13 +3,13 @@ from .. import loader, utils
 @loader.tds
 class RPMod(loader.Module):
     """Модуль RPMod by недоСашка"""
-    strings = {'name': 'RPMod недоСашка'}
+    strings = {'name': 'RPMod недоСашка V2.0'}
 
     async def client_ready(self, client, db):
         self.db = db
         self.db.set("RPMod", "status", True)
 
-    async def rpmodcmd(self, message):
+    async def rpmod2cmd(self, message):
         """Используй: .rpmod чтобы включить/выключить RP режим."""
         status = self.db.get("RPMod", "status")
         if status is not False:
@@ -19,7 +19,7 @@ class RPMod(loader.Module):
             self.db.set("RPMod", "status", True)
             await message.edit("<b>RP Режим <code>включен</code></b>")
 
-    async def рплистcmd(self, message):
+    async def рплист2cmd(self, message):
         """Используй: .рплист чтобы посмотреть список рп команд."""
         await message.edit("<b>• чмок\n• чпок\n• кусь\n• обнять\n• шлеп\n• ударить\n• кинуть камень\n• выкинуть\n• закопать\n• выкопать\n• запопать\n• послать\n• сосать\n• отлизать\n• выебать\n• пожениться\n• развод\n• уложить/лечь спать\n• ❤️\n• рука и сердце\n• кинуть на карту\n• купить еду/чипсы\n• купить пиво\n• выпить пиво\n\nНовинка:\n\n• Связать\n• Придушить\n• Возбудить\n• Погладить\n• Утопить в молоке\n• Кончить на\n• Сделать чик-чик\n• Кастрировать\n• Пустить слюни на\n• Почесать за ухом\n• Поцеловать/чмокнуть в лобик\n• Плюнуть в лицо\n• Харкнуть\n• Прогнать\n• Бросить в канаву\n• Обсосать\n• Скинуть фотку\n• Обоссать\n• Рыгнуть в лицо\n• Показать жопу/сиськи/хуй\n\n Пока всё \n\n Есть идеи для модуля?\nПиши сюда: https://t.me/ideidlyamodulei18</b>")
 

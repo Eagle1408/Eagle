@@ -115,14 +115,14 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> показал хуй <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "бросить в канаву":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> бросил(-а) в канаву <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "Обидется на":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> Обидется на<a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "обидется на":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> обиделся(-ась) на <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "уебать об стенку":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> уебал(-ала) об стенку <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "послать додому":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> послал(-а) додому <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "послать до хаты":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> послал(-а) до хаты <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "":

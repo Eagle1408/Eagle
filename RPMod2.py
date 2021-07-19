@@ -2,14 +2,14 @@ from .. import loader, utils
 
 @loader.tds
 class RPMod(loader.Module):
-    """Модуль RPMod by недоСашка 2"""
-    strings = {'name': 'RPMod недоСашка v2.0'}
+    """Модуль RPMod by недоСашка"""
+    strings = {'name': 'RPMod недоСашка2'}
 
     async def client_ready(self, client, db):
         self.db = db
         self.db.set("RPMod", "status", True)
 
-    async def rpmodtwocmd(self, message):
+    async def rpmod2cmd(self, message):
         """Используй: .rpmod чтобы включить/выключить RP режим."""
         status = self.db.get("RPMod", "status")
         if status is not False:
@@ -19,9 +19,9 @@ class RPMod(loader.Module):
             self.db.set("RPMod", "status", True)
             await message.edit("<b>RP Режим <code>включен</code></b>")
 
-    async def рплистдваcmd(self, message):
-        """Используй: .рплист2 чтобы посмотреть список рп команд."""
-        await message.edit("<b>•Представь что тут ссылка на эти команды•</b>")
+    async def рплистcmd(self, message):
+        """Используй: .рплист чтобы посмотреть список рп команд."""
+        await message.edit("<b>•Представь что тут что-то есть•</b>")
 
     async def watcher(self, message):
         status = self.db.get("RPMod", "status")

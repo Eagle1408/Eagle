@@ -9,7 +9,7 @@ class RPMod(loader.Module):
         self.db = db
         self.db.set("RPMod", "status", True)
 
-    async def rpmodcmd(self, message):
+    async def rpmod2cmd(self, message):
         """Используй: .rpmod чтобы включить/выключить RP режим."""
         status = self.db.get("RPMod", "status")
         if status is not False:

@@ -97,10 +97,4 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> снял(-а) кофту с <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "связать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> связал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "уебать":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> уебал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "отсосать":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> отсосал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "отлизать":
-                    
-        except: pass
+                           except: pass

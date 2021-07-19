@@ -149,7 +149,7 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> возбудил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "пригласить на свадьбу":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> пригласил(-а) на свадьбу <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "бухнуть с:
+                    if message.text.lower() == "бухнуть с":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> бухнул(-а) с <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "потанцевать с":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> потанцевал(-а) с <a href=tg://user?id={user.id}>{user.first_name}</a>")

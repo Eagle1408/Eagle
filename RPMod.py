@@ -3,7 +3,7 @@ from .. import loader, utils
 @loader.tds
 class RPMod(loader.Module):
     """Модуль RPMod by недоСашка"""
-    strings = {'name': 'RPMod by недоСашка'}
+    strings = {'name': 'RPMod недоСашка'}
 
     async def client_ready(self, client, db):
         self.db = db

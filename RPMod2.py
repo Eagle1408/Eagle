@@ -3,13 +3,13 @@ from .. import loader, utils
 @loader.tds
 class RPMod(loader.Module):
     """Модуль RPMod by недоСашка"""
-    strings = {'name': 'RPMod недоСашка2'}
+    strings = {'name': 'RPMod недоСашка'}
 
     async def client_ready(self, client, db):
         self.db = db
         self.db.set("RPMod", "status", True)
 
-    async def rpmod2cmd(self, message):
+    async def rpmodcmd(self, message):
         """Используй: .rpmod чтобы включить/выключить RP режим."""
         status = self.db.get("RPMod", "status")
         if status is not False:
@@ -21,7 +21,7 @@ class RPMod(loader.Module):
 
     async def рплистcmd(self, message):
         """Используй: .рплист чтобы посмотреть список рп команд."""
-        await message.edit("<b>•Представь что тут что-то есть•</b>")
+        await message.edit("<b>• чмок\n• чпок\n• кусь\n• обнять\n• шлеп\n• ударить\n• кинуть камень\n• выкинуть\n• закопать\n• выкопать\n• запопать\n• послать\n• сосать\n• отлизать\n• выебать\n• пожениться\n• развод\n• уложить/лечь спать\n• ❤️\n• рука и сердце\n• кинуть на карту\n• купить еду/чипсы\n• купить пиво\n• выпить пиво\n\nНовинка:\n\n• Связать\n• Придушить\n• Возбудить\n• Погладить\n• Утопить в молоке\n• Кончить на\n• Сделать чик-чик\n• Кастрировать\n• Пустить слюни на\n• Почесать за ухом\n• Поцеловать/чмокнуть в лобик\n• Плюнуть в лицо\n• Харкнуть\n• Прогнать\n• Бросить в канаву\n• Обсосать\n• Скинуть фотку\n• Обоссать\n• Рыгнуть в лицо\n• Показать жопу/сиськи/хуй\n\n Пока всё \n\n Есть идеи для модуля?\nПиши сюда: https://t.me/ideidlyamodulei18</b>")
 
     async def watcher(self, message):
         status = self.db.get("RPMod", "status")
@@ -30,7 +30,7 @@ class RPMod(loader.Module):
             user = await message.client.get_entity(reply.sender_id)
             me = (await message.client.get_me())
             if status is not False:
-                if message.sender_id == me.id:
+                if message.sender_id == me.id: 
                     if message.text.lower() == "обидется на":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> обиделся(-ась) на <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "уебать об стенку":
@@ -97,7 +97,7 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> снял(-а) кофту с <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "связать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> связал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                         if message.text.lower() == "уебать":
+                    if message.text.lower() == "уебать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> уебал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "отсосать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> отсосал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
@@ -190,5 +190,6 @@ class RPMod(loader.Module):
                     if message.text.lower() == "накурить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> накурил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "станцевать стриптиз для":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> станцевал(-а) стриптиз для <a href=tg://user?id={user.id}>{user.first_name}</a>")                    
-    except: pass
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> станцевал(-а) стриптиз для <a href=tg://user?id={user.id}>{user.first_name}</a>")
+ 
+        except: pass

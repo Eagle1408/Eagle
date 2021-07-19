@@ -115,6 +115,518 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> показал хуй <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "бросить в канаву":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> бросил(-а) в канаву <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "Обидется на":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> Обидется на<a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")                    
                     if message.text.lower() == "смех":
                         await message.edit(f"АХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХАХА")  
         except: pass

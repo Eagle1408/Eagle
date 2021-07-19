@@ -2,8 +2,8 @@ from .. import loader, utils
 
 @loader.tds
 class RPMod(loader.Module):
-    """Модуль RPMod by недоСашка V2.0
-    strings = {'name': 'RPMod by неwоСашка V2.0'}
+    """Модуль RPMod by недоСашка"""
+    strings = {'name': 'RPMod by недоСашка'}
 
     async def client_ready(self, client, db):
         self.db = db
@@ -112,15 +112,15 @@ class RPMod(loader.Module):
                     if message.text.lower() == "притянуть":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> притянул(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "изнасиловать":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> изнасиловал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "отпороть":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> отпорол(-а)<a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "отнести":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> отнёс(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "кастрировать":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> кастрировал(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "научить сосать":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> научил(-а) сосать <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "обмануть":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "отрезать пипиську":

@@ -123,12 +123,12 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> послал(-а) додому <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "послать до хаты":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> послал(-а) до хаты <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "дать в попу":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> дал(-а) в попу <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "дать в попку":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> дал(-а) в попку <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "прийти к":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> пришёл(-шла) к <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "чмокнуть в попку":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> чмокнул(-а) в попку <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "":

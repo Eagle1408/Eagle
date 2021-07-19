@@ -190,11 +190,11 @@ class RPMod(loader.Module):
                     if message.text.lower() == "задушить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> задушил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "украсть":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> украл(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "погладить":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> погладил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "притянуть":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> притянул(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "изнасиловать":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "отпороть":

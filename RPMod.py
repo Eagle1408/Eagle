@@ -364,7 +364,7 @@ class RPMod(loader.Module):
                     if message.text.lower() == "уйти от":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> ушёл(-шла) от <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "посадить на инвалида":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> писадил(-а) на инвалида <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> посадил(-а) на инвалида <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "тронуть":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> тронул(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "постричь налысо":

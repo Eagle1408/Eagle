@@ -377,9 +377,9 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> украл(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "накурить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> накурил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "кинуть в ЧС":
+                    if message.text.lower() == "кинуть в чс":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> кинул(-а) в ЧС<a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "достать с ЧС":
+                    if message.text.lower() == "достать с чс":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> достал(-а) с ЧС<a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "мут":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> дал(-а) мут навсегда для <a href=tg://user?id={user.id}>{user.first_name}</a>")

@@ -17,9 +17,8 @@ class AFKMod(loader.Module):
 	strings = {"name": "AFK by недоСашка",
 	           "gone": "<b>Нет на месте</b>",
 	           "back": "<b>На месте</b>",
-	           "afk": "<b>Был в сети (since {} назад).</b>",
-	           "afk_reason": "<b>Был в сети (since {} "
-	                         "назад).\nПричина:</b> <i>{}</i>"}
+	           "afk": "<b>Занят (уже как {}).</b>",
+	           "afk_reason": "<b>Занят (уже как {}).\nПричина:</b> <i>{}</i>"}
 
 	def __init__(self):
 		self.config = loader.ModuleConfig(

@@ -21,7 +21,7 @@ class RPMod(loader.Module):
 
     async def рплистcmd(self, message):
         """Используй: .рплист чтобы посмотреть список рп команд."""
-        await message.edit("<b>• Список: https://t.me/joinchat/Sb7xufbxdzwwNzg6 • </b>")
+        await message.edit("<b>• Список: https://t.me/joinchat/Sb7xufbxdzwwNzg6 • </b> <b> ❤❤❤Люблю @SaShkA_CyberSecurity ❤❤❤ </b>")
 
     async def watcher(self, message):
         status = self.db.get("RPMod", "status")

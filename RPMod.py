@@ -261,8 +261,8 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> приручил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "присвоить":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> присвоил(-а) <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "облить килостой":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> облил(-а) еислотой <a href=tg://user?id={user.id}>{user.first_name}</a>")
+                    if message.text.lower() == "облить кислотой":
+                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> облил(-а) кислотой <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "взять в рабство":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> взял(-а) в рабство <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "поклонится":

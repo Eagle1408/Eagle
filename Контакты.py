@@ -49,8 +49,8 @@ class Contact(loader.Module):
         await message.client(functions.messages.ReportSpamRequest(peer=user.id))
         await message.edit("<b>You get report for spam!</b>")
 
-    async def блокcmd(self, message):
-        """Use: .блок to block this user."""
+    async def blockcmd(self, message):
+        """Use: .block to block this user."""
         args = utils.get_args_raw(message)
         reply = await message.get_reply_message()
         if message.chat_id != (await message.client.get_me()).id and message.is_private:
@@ -68,7 +68,7 @@ class Contact(loader.Module):
         await message.client(functions.contacts.BlockRequest(user))
         await utils.answer(message, self.strings["blocked"].format(user.first_name))
 
-    async def анблокcmd(self, message):
+    async def unblockcmd(self, message):
         """Use: .unblock to unblock this user."""
         args = utils.get_args_raw(message)
         reply = await message.get_reply_message()
@@ -87,7 +87,7 @@ class Contact(loader.Module):
         await message.client(functions.contacts.UnblockRequest(user))
         await utils.answer(message, self.strings["unblocked"].format(user.first_name))
 
-    async def удалитьконтактcmd(self, message):
+    async def delcontcmd(self, message):
         """Use: .delcont to remove a user from contacts."""
         args = utils.get_args(message)
         reply = await message.get_reply_message()
@@ -106,7 +106,7 @@ class Contact(loader.Module):
         await message.client(functions.contacts.DeleteContactsRequest(id=[user.id]))
         await utils.answer(message, self.strings["delcontact"].format(user.first_name))
 
-    async def добавитьcmd(self, message):
+    async def addcontcmd(self, message):
         """Use: .addcont to add somebody in contacts."""
         args = utils.get_args_raw(message)
         reply = await message.get_reply_message()

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# Module author: @Yahikor0
 
 from telethon import functions
 

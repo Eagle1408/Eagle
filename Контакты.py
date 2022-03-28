@@ -15,7 +15,7 @@ class Contact(loader.Module):
     strings = {
         "name": "Contact",
         "blocked": "<b>{} теперь в ЧС.</b>",
-        "blocked": "<b>{} теперь не в ЧС.</b>",
+        "unblocked": "<b>{} теперь не в ЧС.</b>",
         "delcontact": "<b>{} удалён с контактов.</b>",
         "who_to_block": "<b>Кого блокать то?.</b>",
         "who_to_unblock": "<b>Кого разблокать то?.</b>",

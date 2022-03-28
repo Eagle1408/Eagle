@@ -7,7 +7,7 @@ from .. import loader, utils
 
 
 @loader.tds
-class ConthelperMod(loader.Module):
+class Conthelper(loader.Module):
     """
     Commands:
     """

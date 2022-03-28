@@ -13,13 +13,13 @@ class ConthelperMod(loader.Module):
     """
 
     strings = {
-        "name": "Conthelper",
-        "blocked": "<b>{} was blacklisted.</b>",
-        "unblocked": "<b>{} removed from the blacklist.</b>",
-        "delcontact": "<b>{} was removed from contacts.</b>",
-        "who_to_block": "<b>Indicate, who to block.</b>",
-        "who_to_unblock": "<b>Indicate, who to unblock.</b>",
-        "who_to_delcontact": "<b>Indicate, who to remove from contacts.</b>",
+        "name": "Контакты недоСашка",
+        "blocked": "<b>{} теперь в ЧС.</b>",
+        "unblocked": "<b>{} больше не в ЧС.</b>",
+        "delcontact": "<b>{} больше не в контактах.</b>",
+        "who_to_block": "<b>Кого блокать?.</b>",
+        "who_to_unblock": "<b>Кого разблокать?.</b>",
+        "who_to_delcontact": "<b>Кого убрать с контактов?.</b>",
     }
 
     def __init__(self):

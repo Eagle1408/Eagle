@@ -7,13 +7,13 @@ from .. import loader, utils
 
 
 @loader.tds
-class Контакты_недоСашка(loader.Module):
+class Contact(loader.Module):
     """
     Commands:
     """
 
     strings = {
-        "name": "Контакты",
+        "name": "Контакты недоСашка",
         "блок": "<b>{} теперь в ЧС.</b>",
         "анблок": "<b>{} теперь не в ЧС.</b>",
         "удалитьконтакт": "<b>{} удалён с контактов.</b>",

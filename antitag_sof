@@ -9,7 +9,7 @@ class AntiTagMod(loader.Module):
         self.db = db
 
     async def сьебаласьcmd(self, message):
-        """Включить режим AntiTag: .сьебалась <текст или реплай>."""
+        """Включить AntiTag: .сьебалась <текст или реплай>."""
         atst = self.db.get("AntiTag", "status", False)
         msg = self.db.get("AntiTag", "sets", {})
         args = utils.get_args_raw(message)

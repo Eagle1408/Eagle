@@ -25,7 +25,7 @@ class AntiTagMod(loader.Module):
             msg.update({"is_reply": False})
         self.db.set("AntiTag", "status", True)
         self.db.set("AntiTag", "sets", msg) 
-        return await message.edit("<b>Ушёл</b>")
+        return await message.edit("<b>Съебалась.</b>")
 
     async def приебаласьcmd(self, message):
         """Выключить режим AntiTag: .приебалась."""

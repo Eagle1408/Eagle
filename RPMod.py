@@ -385,14 +385,6 @@ class RPMod(loader.Module):
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> дал(-а) мут навсегда для <a href=tg://user?id={user.id}>{user.first_name}</a>")
                     if message.text.lower() == "бан":
                         await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> выдал(-а) бан для <a href=tg://user?id={user.id}>{user.first_name}</a>")
-                    if message.text.lower() == "держи пиво":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> {\_/}
-( . . )
-/>🍺на пивасик <a href=tg://user?id={user.id}>{user.first_name}</a>") 
-                    if message.text.lower() == "а не мама идёт":
-                        await message.edit(f"<a href=tg://user?id={me.id}>{me.first_name}</a> {\_/}
-( • •)
-🍺<\а не, мама идёт <a href=tg://user?id={user.id}>{user.first_name}</a>")     
-                                           
+                  
                                            
         except: pass
